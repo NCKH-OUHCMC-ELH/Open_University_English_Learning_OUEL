@@ -56,7 +56,7 @@ function App() {
             </div>
             <div class="w-[30%] flex max-md:w-full items-center justify-center">
               <img
-                src="public/logo.png"
+                src="/logo.png"
                 alt="OUEL Logo"
                 class="w-[300px] max-md:w-full"
               />
