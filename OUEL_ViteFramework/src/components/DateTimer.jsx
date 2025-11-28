@@ -15,7 +15,7 @@ const DateTimer = () => {
   const formattedDate = currentDate ? format(currentDate, 'dd/MM/yyyy - HH:mm:ss') : "Đang tải...";
 
   return (
-    <div class="mb-5 text-lg font-medium text-white">
+    <div className="mb-5 text-lg font-medium text-white">
         <p>
           <strong>Thời gian hiện tại: </strong>{" "}
           {formattedDate}
