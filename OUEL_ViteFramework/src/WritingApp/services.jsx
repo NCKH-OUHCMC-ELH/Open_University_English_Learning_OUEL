@@ -6,7 +6,7 @@ const correctWriting = async (text) => {
                 "Content-Type": "application/json",
             },
         body: JSON.stringify({
-                app_id: 2,
+                app_id: 1,
                 input: text,
         }),
     });
