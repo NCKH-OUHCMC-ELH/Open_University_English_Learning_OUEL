@@ -20,9 +20,9 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['ouelproject.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 #Swagger guide: https://www.geeksforgeeks.org/python/swagger-integration-with-python-django/
 INSTALLED_APPS = [
@@ -39,9 +39,6 @@ INSTALLED_APPS = [
     'django_ckeditor_5',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "ouelproject.vercel.app",
-]
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
